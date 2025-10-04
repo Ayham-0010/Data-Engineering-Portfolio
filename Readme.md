@@ -63,8 +63,8 @@ Uses Delta Lake CDC to capture updates and maintain consistency
 
 * Sink:
 
-Denormalized data → Kafka topics<br>
-Kafka OpenSearch Connector → Indexes into respective OpenSearch indices
+the Denormalized data is in Kafka topics<br>
+Kafka OpenSearch Connector Aiven is used to Index the data into the respective OpenSearch index for each topic
 
 
 ### Architecture Diagram ###
@@ -78,6 +78,7 @@ Here’s a clear visual of the end-to-end pipeline System:<br>
 programming languages: Python, SQL 
 Databases: EventStoreDB, PostgreSQL<br>
 Data Lake: Delta Lake (on top of Apache Spark)<br>
+Minio: S3 Object Storage 
 Streaming: Apache Kafka, Debezium, Spark Structured Streaming<br>
 Search & Indexing: OpenSearch + Kafka Connect<br>
 ETL Orchestration: Spark Batch & Streaming Jobs
