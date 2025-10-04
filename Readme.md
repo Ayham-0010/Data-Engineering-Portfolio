@@ -76,7 +76,7 @@ Here’s a clear visual of the end-to-end pipeline System:<br>
 
 
 ### Tech Stack ###
-
+programming languages: Python, SQL 
 Databases: EventStoreDB, PostgreSQL<br>
 Data Lake: Delta Lake (on top of Apache Spark)<br>
 Streaming: Apache Kafka, Debezium, Spark Structured Streaming<br>
