@@ -29,7 +29,6 @@ Jobs-DeltaLake-Batch-ETL<br>
 Events-DeltaLake-Batch-ETL<br>
 Publications-DeltaLake-Batch-ETL
 
-EventStoreDB client → Event-driven batch processing → Delta Lake
 
 * Streaming ETL Pipeline (User Data)
 
