@@ -14,7 +14,7 @@ Captured in EventStoreDB.
 User Profile Data & Metadata:<br>
 Stored in PostgreSQL databases.
 
-* ETL to Delta Lake
+** ETL to Delta Lake
 
 - Batch ETL Pipelines (Event Data)<br>
 Each content type has its own batch ETL job, which reads from EventStoreDB and writes to Delta Lake:
