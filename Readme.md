@@ -78,7 +78,7 @@ Here’s a clear visual of the end-to-end pipeline System:<br>
 programming languages: Python, SQL 
 Databases: EventStoreDB, PostgreSQL<br>
 Data Lake: Delta Lake (on top of Apache Spark)<br>
-Minio: S3 Object Storage 
+Minio: S3 Object Storage <br>
 Streaming: Apache Kafka, Debezium, Spark Structured Streaming<br>
 Search & Indexing: OpenSearch + Kafka Connect<br>
 ETL Orchestration: Spark Batch & Streaming Jobs
