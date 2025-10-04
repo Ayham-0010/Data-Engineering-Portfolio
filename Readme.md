@@ -14,9 +14,9 @@ Captured in EventStoreDB.
 User Profile Data & Metadata:<br>
 Stored in PostgreSQL databases.
 
-* ETL to Delta Lake
 
-1. Batch ETL Pipelines (Event Data)<br>
+
+* Batch ETL Pipelines (Event Data)<br>
 Each content type has its own batch ETL job, which reads from EventStoreDB and writes to Delta Lake:
 
 Post-DeltaLake-Batch-ETL<br>
@@ -31,7 +31,7 @@ Publications-DeltaLake-Batch-ETL
 
 EventStoreDB client → Event-driven batch processing → Delta Lake
 
-2. Streaming ETL Pipeline (User Data)
+* Streaming ETL Pipeline (User Data)
 
 User-DeltaLake-Stream-ETL<br>
 Explore the complete implementation and source code:<br>
@@ -41,7 +41,7 @@ Debezium Kafka Connector captures CDC from PostgreSQL.<br>
 Changes are written to Kafka topics.<br>
 Spark Structured Streaming consumes Kafka data, transforms it, and writes into Delta Lake.
 
-3. Denormalization & Indexing<br>
+* Denormalization & Indexing<br>
 Each entity type has its own denormalization pipeline:
 
 User-Denormalization-Pipeline<br>
