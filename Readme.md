@@ -59,7 +59,7 @@ Publications-Denormalization-Pipeline
 Caching for performance and reduced shuffle<br>
 leveraging python multi-threading to manage concurrency and avoid blocking<br>
 Broadcast joins when applicable<br>
-Uses Delta Lake CDC to capture updates and maintained consistency
+Uses Delta Lake CDC to capture updates and maintain consistency
 
 
 * Sink:
