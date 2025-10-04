@@ -41,7 +41,7 @@ Changes are written to Kafka topics.<br>
 Spark Structured Streaming consumes Kafka data, transforms it, and writes into Delta Lake.
 
 * Denormalization & Indexing<br>
-Each entity type has its own denormalization pipeline:
+Each entity type has its own denormalization pipeline, which performs complex SQL queries on the related Delta Lake tables to produce enriched, JSON-formatted data that is published to Kafka. Additionally, Delta Lake CDC is leveraged to ensure that any data updates are accurately captured and propagated to Kafka:
 
 User-Denormalization-Pipeline<br>
 Explore the complete implementation and source code:<br>
