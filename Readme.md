@@ -70,8 +70,8 @@ Kafka OpenSearch Connector → Indexes into respective OpenSearch indices
 
 ### Architecture Diagram ###
 
-Here’s a clear visual of the end-to-end pipelines:
-
+Here’s a clear visual of the end-to-end pipeline System:
+https://github.com/Ayham-0010/Data-Engineering-Portfolio/blob/main/%20Data%20Lakehouse%20%26%20Search%20Indexing%20Pipeline%20Diagram.png
 
 
 ### Tech Stack ###
