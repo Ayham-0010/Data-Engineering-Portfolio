@@ -1,4 +1,4 @@
-### Data Lakehouse & Search Indexing Pipeline ###
+### Data Lakehouse & Search Indexing Pipeline System ###
 
 This project demonstrates a modern data engineering architecture that integrates multiple data sources, batch and streaming ETL pipelines, Delta Lake storage, denormalization layers, and near-real-time indexing into OpenSearch.<br>
 
