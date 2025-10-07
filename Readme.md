@@ -75,7 +75,7 @@ Here’s a clear visual of the end-to-end pipeline System:<br>
 
 
 ### Tech Stack ###
-programming languages: Python, SQL 
+programming languages: Python, SQL <br>
 Databases: EventStoreDB, PostgreSQL<br>
 Data Lakehouse: Delta Lake<br>
 S3 Object Storage: Minio<br>
